@@ -1,7 +1,7 @@
 import { EmbedBlot } from 'parchment';
 import { sanitize } from './link';
 
-const ATTRIBUTES = ['alt', 'height', 'width', 'data-src', 'class', 'title', 'data-srcset', 'srcset', 'data-sizes', 'sizes', 'iframely-url'];
+const ATTRIBUTES = ['alt', 'height', 'width', 'data-src', 'class', 'title', 'data-srcset', 'srcset', 'data-sizes', 'sizes', 'data-iframely-url'];
 
 class Image extends EmbedBlot {
   static create(value) {
