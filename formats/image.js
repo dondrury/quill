@@ -1,3 +1,4 @@
+
 import { EmbedBlot } from 'parchment';
 import { sanitize } from '../formats/link';
 
